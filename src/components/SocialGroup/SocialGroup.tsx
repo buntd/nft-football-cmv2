@@ -11,10 +11,10 @@ import MagicEdenImage from "../../assets/magiceden.png";
 function SocialGroup() {
   return (
     <SocialGroupWrapper>
-      <SocialLink href="https://twitter.com" target="_blank">
+      <SocialLink href="https://twitter.com/footballpunks" target="_blank">
         <FaTwitter />
       </SocialLink>
-      <SocialLink href="https://discord.com" target="_blank">
+      <SocialLink href="https://discord.gg/qwKsvMKxyp" target="_blank">
         <FaDiscord />
       </SocialLink>
       <SocialLink href="https://magiceden.io/u/footballpunks" target="_blank">

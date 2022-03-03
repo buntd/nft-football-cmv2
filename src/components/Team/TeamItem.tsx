@@ -1,6 +1,13 @@
-import React from "react";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
-import { TeamCard, TeamContent, TeamImage, TeamName, TeamRole, TeamSocialLink, TeamSocials } from "./TeamItem.styles";
+import { FaTwitter } from "react-icons/fa";
+import {
+  TeamCard,
+  TeamContent,
+  TeamImage,
+  TeamName,
+  TeamRole,
+  TeamSocialLink,
+  TeamSocials,
+} from "./TeamItem.styles";
 
 interface IProps {
   image: string;
@@ -22,9 +29,6 @@ function TeamItem({ name, image, role, twitterLink, instagramLink }: IProps) {
         <TeamSocials>
           <TeamSocialLink href={twitterLink} target="_blank">
             <FaTwitter />
-          </TeamSocialLink>
-          <TeamSocialLink href={instagramLink} target="_blank">
-            <FaInstagram />
           </TeamSocialLink>
         </TeamSocials>
       </TeamContent>

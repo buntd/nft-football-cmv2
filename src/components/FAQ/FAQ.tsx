@@ -6,10 +6,17 @@ import { v4 as randomID } from "uuid";
 
 const FAQ_DATA = [
   {
+    question: "What is the launch date?",
+    answer: "26th March (Whitelist), 27th March (Public Mint)",
+  },
+  {
     question: "How many NFTs will be released to the public?",
     answer: "A total of 365 Football Punks.",
   },
-  { question: "What is the minting price?", answer: "3 Sol (Solana)." },
+  {
+    question: "What is the minting price?",
+    answer: "2 Sol (Whitelist), 3 Sol (Public Mint).",
+  },
   {
     question: "Where can I get a Football Punk?",
     answer:

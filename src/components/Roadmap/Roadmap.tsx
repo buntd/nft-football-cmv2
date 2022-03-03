@@ -6,13 +6,13 @@ import { v4 as randomID } from "uuid";
 
 const ROADMAP_DATA = [
   {
-    title: "Starting off!",
+    title: "Starting off",
     description:
       "The Website and the Smart Contract are done and ready for the launch. Paid advertising on social media.",
     stage: "Qualifying stage",
   },
   {
-    title: "Hear Us Out!",
+    title: "Marketing",
     description:
       "Launching on NFT related websites. Announcing Giveaways and AirDrops on our Discord.",
     stage: "Group stage",
@@ -42,7 +42,7 @@ const ROADMAP_DATA = [
   },
   {
     title: "100% sold",
-    description: "Starting the development of our pay-to-earn game.",
+    description: "Starting the development of our play-to-earn game.",
     stage: "Finals",
   },
 ];
